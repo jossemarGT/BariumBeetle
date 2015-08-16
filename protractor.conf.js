@@ -1,3 +1,5 @@
+/*eslint strict:0 */
+
 'use strict';
 
 var paths = require('./.yo-rc.json')['generator-gulp-angular'].props.paths;
@@ -12,7 +14,7 @@ exports.config = {
   capabilities: {
     'browserName': 'chrome'
   },
-  
+
   baseUrl: 'http://localhost:3000',
 
   // Spec patterns are relative to the current working directly when

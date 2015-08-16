@@ -11,12 +11,6 @@
 
     vm.eventName = 'CopperMantis';
     vm.shortEventName = 'CMS';
-    vm.collapseSidebar = false;
-
-    vm.sidebarToggle = function() {
-      console.log(":D");
-      vm.collapseSidebar = !vm.collapseSidebar;
-    };
 
   }
 })();
