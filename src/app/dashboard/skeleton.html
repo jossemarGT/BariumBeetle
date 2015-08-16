@@ -1,0 +1,39 @@
+<div class="wrapper">
+	<header class="main-header">
+      <!-- Logo -->
+      <a ui-sref="section.home" class="logo">
+        <!-- mini logo for sidebar mini 50x50 pixels -->
+        <span class="logo-mini">{{dashboard.shortEventName}}</span>
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg">{{dashboard.eventName}}</span>
+      </a>
+
+      <!-- Header Navbar: style can be found in header.less -->
+      <nav class="navbar navbar-static-top" role="navigation">
+        <!-- Sidebar toggle button-->
+        <a href="#" class="sidebar-toggle" side-menu-toggle data-toggle="offcanvas" role="button">
+          <span class="sr-only">Toggle navigation</span>
+        </a>
+        <!-- Navbar Right Menu -->
+        <div class="navbar-custom-menu">
+        </div>
+      </nav>
+	</header>
+	<aside class="main-sidebar">
+		<!-- sidebar  -->
+		<section class="sidebar">
+
+		</section>
+	</aside>
+	<div class="content-wrapper">
+		<div ui-view>
+
+		</div>
+	</div>
+	<footer class="main-footer">
+      <div class="pull-right hidden-xs">
+        <b>Copper Mantis</b> 0.1.0
+      </div>
+      <strong>{{dashboard.eventName}}</strong>
+	</footer>
+</div>

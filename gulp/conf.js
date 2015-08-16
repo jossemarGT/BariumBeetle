@@ -24,8 +24,16 @@ exports.paths = {
  *  to inject css preprocessor deps and js files in karma
  */
 exports.wiredep = {
-  exclude: [/bootstrap.js$/, /bootstrap-sass-official\/.*\.js/, /bootstrap\.css/],
-  directory: 'bower_components'
+  directory: 'bower_components',
+  // AdminLTE bootstrap dashboard theme TWEAKS
+  overrides: {
+    'admin-lte': {
+      'main': ['dist/js/app.js','dist/css/AdminLTE.css', 'dist/css/skins/skin-green.css']
+    },
+    'bootstrap': {
+      'main': ['less/bootstrap.less', 'js/tooltip.js']
+    }
+  }
 };
 
 /**

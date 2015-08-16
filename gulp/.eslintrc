@@ -1,0 +1,12 @@
+{
+	"env": {
+		"node": true
+	},
+	"rules": {
+		"strict": 0,
+		"quotes": [1, "single"]
+	},
+	"plugins": [
+		"angular"
+	]
+}

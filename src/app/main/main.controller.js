@@ -11,7 +11,7 @@
 
     vm.awesomeThings = [];
     vm.classAnimation = '';
-    vm.creationDate = 1437229257047;
+    vm.creationDate = 1439263818921;
     vm.showToastr = showToastr;
 
     activate();
@@ -19,7 +19,7 @@
     function activate() {
       getWebDevTec();
       $timeout(function() {
-        vm.classAnimation = 'rubberBand';
+        // vm.classAnimation = 'rubberBand';
       }, 4000);
     }
 
